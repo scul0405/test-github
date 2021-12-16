@@ -1,4 +1,6 @@
 function cat(name, age) {
-    cat.name = name;
-    cat.age = age;
+    this.name = name;
+    this.age = age;
 }
+
+module.exports = cat;
