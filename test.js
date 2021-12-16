@@ -13,5 +13,8 @@ cat.prototype.eat = function(mouse) {
     this.stomatch.push(mouse);
     mouse.die;
 }
+cat.prototype.say () {
+    console.log("Meow meow");
+} 
 
 module.exports = cat;
